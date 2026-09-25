@@ -1,0 +1,2 @@
+streamlit    # web framework — runs the app in your browser
+graphviz     # draws the diagrams and graphs
