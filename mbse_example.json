@@ -1,0 +1,1051 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Quick Coffee Preparation",
+      "description": "Coffee should be ready quickly.",
+      "step": "Stakeholder Needs",
+      "method": "OOSEM"
+    },
+    {
+      "id": 1,
+      "name": "Easy to Use Interface",
+      "description": "Simple buttons or touch controls.",
+      "step": "Stakeholder Needs",
+      "method": "OOSEM"
+    },
+    {
+      "id": 2,
+      "name": "Good Taste Quality",
+      "description": "Coffee should taste consistent and strong.",
+      "step": "Stakeholder Needs",
+      "method": "OOSEM"
+    },
+    {
+      "id": 3,
+      "name": "Safe Operation",
+      "description": "No electrical or burn hazards.",
+      "step": "Stakeholder Needs",
+      "method": "OOSEM"
+    },
+    {
+      "id": 4,
+      "name": "Low Noise Level",
+      "description": "Machine should not be too loud.",
+      "step": "Stakeholder Needs",
+      "method": "OOSEM"
+    },
+    {
+      "id": 5,
+      "name": "Easy Cleaning",
+      "description": "User can clean without tools.",
+      "step": "Stakeholder Needs",
+      "method": "OOSEM"
+    },
+    {
+      "id": 6,
+      "name": "Brew Start < 60 Seconds",
+      "description": "System shall start brewing within 60 seconds.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 7,
+      "name": "Water Temperature Control",
+      "description": "System shall heat water to 85\u201396\u00b0C.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 8,
+      "name": "Cup Size Selection",
+      "description": "System shall support small, medium, large cups.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 9,
+      "name": "Strength Selection",
+      "description": "System shall allow mild, normal, strong coffee.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 10,
+      "name": "Overheat Protection",
+      "description": "System shall shut down if temperature exceeds limit.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 11,
+      "name": "Dry-Run Protection",
+      "description": "System shall prevent brewing without water.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 12,
+      "name": "Noise Level < 70 dB",
+      "description": "System shall operate below 70 dB.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 13,
+      "name": "Cleaning Alert",
+      "description": "System shall notify user when cleaning is needed.",
+      "step": "System Requirements",
+      "method": "OOSEM"
+    },
+    {
+      "id": 14,
+      "name": "User Input Handling",
+      "description": "Read button or touch inputs.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 15,
+      "name": "Display Status Management",
+      "description": "Show heating, brewing, error states.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 16,
+      "name": "Water Heating Control",
+      "description": "Regulate heater temperature.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 17,
+      "name": "Pump Flow Control",
+      "description": "Control water flow through coffee.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 18,
+      "name": "Brew Timing Control",
+      "description": "Control duration of brewing.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 19,
+      "name": "Strength Adjustment Logic",
+      "description": "Adjust water/coffee ratio.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 20,
+      "name": "Safety Monitoring Logic",
+      "description": "Monitor sensors and detect faults.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 21,
+      "name": "Maintenance Tracking Logic",
+      "description": "Count cycles and trigger cleaning alert.",
+      "step": "Logical Architecture",
+      "method": "OOSEM"
+    },
+    {
+      "id": 22,
+      "name": "Microcontroller Unit (MCU)",
+      "description": "Runs control firmware.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 23,
+      "name": "Heating Element",
+      "description": "Heats water.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 24,
+      "name": "Water Pump",
+      "description": "Pushes water through brew chamber.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 25,
+      "name": "Temperature Sensor",
+      "description": "Measures water temperature.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 26,
+      "name": "Water Level Sensor",
+      "description": "Detects empty tank.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 27,
+      "name": "Buttons / Touch Display",
+      "description": "User interface hardware.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 28,
+      "name": "Power Supply Unit",
+      "description": "Converts AC to low-voltage DC.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 29,
+      "name": "Firmware Software",
+      "description": "Implements control algorithms.",
+      "step": "Implementation",
+      "method": "OOSEM"
+    },
+    {
+      "id": 30,
+      "name": "Brew Time Test",
+      "description": "Measure time from start to brewing.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 31,
+      "name": "Temperature Accuracy Test",
+      "description": "Verify water temperature range.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 32,
+      "name": "Cup Size Volume Test",
+      "description": "Measure output volume per size.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 33,
+      "name": "Noise Measurement Test",
+      "description": "Measure operating noise level.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 34,
+      "name": "Overheat Shutdown Test",
+      "description": "Force high temperature and verify shutdown.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 35,
+      "name": "Dry-Run Protection Test",
+      "description": "Start without water and verify stop.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 36,
+      "name": "Cleaning Alert Test",
+      "description": "Verify alert after set number of cycles.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 37,
+      "name": "User Interface Test",
+      "description": "Verify buttons/display functions.",
+      "step": "Verification",
+      "method": "OOSEM"
+    },
+    {
+      "id": 38,
+      "name": "Fast Beverage Expectation",
+      "description": "User expects fast drink preparation.",
+      "step": "User Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 39,
+      "name": "Simple Operation Expectation",
+      "description": "User expects easy controls.",
+      "step": "User Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 40,
+      "name": "Household Safety Expectation",
+      "description": "User expects safe usage at home.",
+      "step": "User Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 41,
+      "name": "Consistent Flavor Expectation",
+      "description": "User expects consistent coffee taste.",
+      "step": "User Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 42,
+      "name": "Automated Brew Sequence Requirement",
+      "description": "System must automate brewing steps.",
+      "step": "System Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 43,
+      "name": "Thermal Control Requirement",
+      "description": "System must regulate temperature safely.",
+      "step": "System Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 44,
+      "name": "Flow Regulation Requirement",
+      "description": "System must regulate water flow.",
+      "step": "System Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 45,
+      "name": "User Interaction Requirement",
+      "description": "System must process user selections.",
+      "step": "System Requirements",
+      "method": "V-Model"
+    },
+    {
+      "id": 46,
+      "name": "Central Control Design",
+      "description": "Top-level system control structure.",
+      "step": "System Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 47,
+      "name": "Safety Management Design",
+      "description": "System-wide safety strategy.",
+      "step": "System Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 48,
+      "name": "Fluid Transport Subsystem",
+      "description": "Subsystem for moving water.",
+      "step": "Subsystem Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 49,
+      "name": "Heating Regulation Subsystem",
+      "description": "Subsystem for heating control.",
+      "step": "Subsystem Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 50,
+      "name": "Human Interface Subsystem",
+      "description": "Subsystem for user interaction.",
+      "step": "Subsystem Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 51,
+      "name": "Pump Actuator Driver",
+      "description": "Controls pump hardware.",
+      "step": "Module Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 52,
+      "name": "Heater Actuator Driver",
+      "description": "Controls heater hardware.",
+      "step": "Module Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 53,
+      "name": "Input Signal Processor",
+      "description": "Processes user input signals.",
+      "step": "Module Design",
+      "method": "V-Model"
+    },
+    {
+      "id": 54,
+      "name": "Embedded Control Software Build",
+      "description": "Compiled firmware image.",
+      "step": "Implementation",
+      "method": "V-Model"
+    },
+    {
+      "id": 55,
+      "name": "Full Hardware Integration",
+      "description": "Assembled electronics and mechanics.",
+      "step": "Implementation",
+      "method": "V-Model"
+    },
+    {
+      "id": 56,
+      "name": "Customer Acceptance Check",
+      "description": "Validate against user expectations.",
+      "step": "Acceptance Verification",
+      "method": "V-Model"
+    },
+    {
+      "id": 57,
+      "name": "System Behavior Validation",
+      "description": "Verify all system-level behavior.",
+      "step": "System Verification",
+      "method": "V-Model"
+    },
+    {
+      "id": 58,
+      "name": "Subsystem Interaction Validation",
+      "description": "Verify subsystem cooperation.",
+      "step": "Subsystem Verification",
+      "method": "V-Model"
+    },
+    {
+      "id": 59,
+      "name": "Component Unit Verification",
+      "description": "Verify individual module behavior.",
+      "step": "Unit Verification",
+      "method": "V-Model"
+    },
+    {
+      "id": 60,
+      "name": "BrewTime",
+      "description": "The coffee machine shall brew a cup of coffee within 60 seconds.",
+      "step": "Requirements Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 61,
+      "name": "BrewTemperature",
+      "description": "The coffee machine shall maintain a water temperature between 90\u00b0C and 96\u00b0C during brewing",
+      "step": "Requirements Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 62,
+      "name": "UserSafety",
+      "description": "The coffee machine shall prevent user contact with hot surfaces and high-pressure hot water",
+      "step": "Requirements Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 63,
+      "name": "EnergyEfficiency",
+      "description": "The coffee machine shall minimize standby power consumption and support automatic power-off.",
+      "step": "Requirements Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 64,
+      "name": "EaseOfUse",
+      "description": "The coffee machine shall have a simple user interface with one-touch operation.",
+      "step": "Requirements Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 65,
+      "name": "HeatWater",
+      "description": "Heat water to the required brewing temperature.",
+      "step": "Function Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 66,
+      "name": "PumpWater",
+      "description": "Pump water from the tank through the heating and brewing system.",
+      "step": "Function Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 67,
+      "name": "ControlBrewCycle",
+      "description": "Control the brewing sequence including timing and process steps.",
+      "step": "Function Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 68,
+      "name": "UserInteraction",
+      "description": "Allow the user to select coffee options and start/stop brewing.",
+      "step": "Function Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 69,
+      "name": "SafetyProtection",
+      "description": "Monitor system state and prevent unsafe conditions during operation.",
+      "step": "Function Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 70,
+      "name": "HeatingSubsystem",
+      "description": "Logical grouping of heater, temperature sensor, and control logic.",
+      "step": "Logical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 71,
+      "name": "PumpingSubsystem",
+      "description": "Logical grouping of pump, valves, and related control signals.",
+      "step": "Logical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 73,
+      "name": "UserInterface",
+      "description": "Central control logic implementing state machine for the brew cycle.",
+      "step": "Logical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 74,
+      "name": "SafetyMonitoring",
+      "description": "Logical safety functions for over-temperature, no-water, and lid-open detection.",
+      "step": "Logical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 75,
+      "name": "HeaterElement",
+      "description": "Electric heating element mounted in the boiler or flow-through heater.",
+      "step": "Physical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 76,
+      "name": "WaterPump",
+      "description": "Electric pump responsible for moving water from tank to brew head.",
+      "step": "Physical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 77,
+      "name": "TemperatureSensor",
+      "description": "Physical temperature sensor measuring water temperature.",
+      "step": "Physical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 78,
+      "name": "ControlPCB",
+      "description": "Main PCB containing microcontroller and power electronics",
+      "step": "Physical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 79,
+      "name": "UserPanel",
+      "description": "\"Physical housing front with buttons, LEDs and optional display.",
+      "step": "Physical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 79,
+      "name": "ControlUnit",
+      "description": "Central control logic implementing state machine for the brew cycle",
+      "step": "Logical Layer",
+      "method": "RFLP"
+    },
+    {
+      "id": 80,
+      "name": "Prod CoffeeMachine",
+      "description": "Complete coffee machine system",
+      "step": "Product",
+      "method": "PPR"
+    },
+    {
+      "id": 81,
+      "name": "Prod_HeatingUnit",
+      "description": "Heating module for water",
+      "step": "Product",
+      "method": "PPR"
+    },
+    {
+      "id": 82,
+      "name": "Prod PumpingUnit",
+      "description": "Pump assembly for water flow",
+      "step": "Product",
+      "method": "PPR"
+    },
+    {
+      "id": 83,
+      "name": "Prod ControlPCB",
+      "description": "Main electronics board",
+      "step": "Product",
+      "method": "PPR"
+    },
+    {
+      "id": 84,
+      "name": "Prod UserInterface",
+      "description": "Buttons, LEDs, or display interface",
+      "step": "Product",
+      "method": "PPR"
+    },
+    {
+      "id": 85,
+      "name": "Proc HeatWater",
+      "description": "Process to heat water to brewing temperature",
+      "step": "Process",
+      "method": "PPR"
+    },
+    {
+      "id": 86,
+      "name": "Proc PumpWater",
+      "description": "Process of moving water through the machine",
+      "step": "Process",
+      "method": "PPR"
+    },
+    {
+      "id": 87,
+      "name": "Proc LoadCoffee",
+      "description": "Loading coffee before brewing",
+      "step": "Process",
+      "method": "PPR"
+    },
+    {
+      "id": 88,
+      "name": "proc BrewCoffee",
+      "description": "Brewing process that extracts coffee",
+      "step": "Process",
+      "method": "PPR"
+    },
+    {
+      "id": 89,
+      "name": "Proc MachineCleaning",
+      "description": "Cleaning cycle",
+      "step": "Process",
+      "method": "PPR"
+    },
+    {
+      "id": 90,
+      "name": "Res Heater",
+      "description": "Heating element resource",
+      "step": "Resources",
+      "method": "PPR"
+    },
+    {
+      "id": 91,
+      "name": "Res WaterPump",
+      "description": "Pump resource for water flow",
+      "step": "Resources",
+      "method": "PPR"
+    },
+    {
+      "id": 92,
+      "name": "Res TempSensor",
+      "description": "Temperature measuring sensor",
+      "step": "Resources",
+      "method": "PPR"
+    },
+    {
+      "id": 93,
+      "name": " Res Microcontroller",
+      "description": "Electronic controller resource",
+      "step": "Resources",
+      "method": "PPR"
+    },
+    {
+      "id": 94,
+      "name": " Res UserPanel",
+      "description": "Buttons and LED panel resource",
+      "step": "Resources",
+      "method": "PPR"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Good Taste Quality",
+      "target": "Water Temperature Control"
+    },
+    {
+      "source": "Safe Operation",
+      "target": "Overheat Protection"
+    },
+    {
+      "source": "Easy Cleaning",
+      "target": "Cleaning Alert"
+    },
+    {
+      "source": "Low Noise Level",
+      "target": "Noise Level < 70 dB"
+    },
+    {
+      "source": "Water Temperature Control",
+      "target": "Water Heating Control"
+    },
+    {
+      "source": "Brew Start < 60 Seconds",
+      "target": "Brew Timing Control"
+    },
+    {
+      "source": "Overheat Protection",
+      "target": "Safety Monitoring Logic"
+    },
+    {
+      "source": "Cleaning Alert",
+      "target": "Maintenance Tracking Logic"
+    },
+    {
+      "source": "Water Heating Control",
+      "target": "Heating Element"
+    },
+    {
+      "source": "Pump Flow Control",
+      "target": "Water Pump"
+    },
+    {
+      "source": "Safety Monitoring Logic",
+      "target": "Temperature Sensor"
+    },
+    {
+      "source": "User Input Handling",
+      "target": "Buttons / Touch Display"
+    },
+    {
+      "source": "Brew Start < 60 Seconds",
+      "target": "Brew Time Test"
+    },
+    {
+      "source": "Water Temperature Control",
+      "target": "Temperature Accuracy Test"
+    },
+    {
+      "source": "Noise Level < 70 dB",
+      "target": "Noise Measurement Test"
+    },
+    {
+      "source": "Easy to Use Interface",
+      "target": "Cup Size Selection"
+    },
+    {
+      "source": "Easy to Use Interface",
+      "target": "Strength Selection"
+    },
+    {
+      "source": "Cup Size Selection",
+      "target": "Brew Timing Control"
+    },
+    {
+      "source": "Strength Selection",
+      "target": "Strength Adjustment Logic"
+    },
+    {
+      "source": "Noise Level < 70 dB",
+      "target": "Pump Flow Control"
+    },
+    {
+      "source": "Strength Adjustment Logic",
+      "target": "Water Pump"
+    },
+    {
+      "source": "Strength Adjustment Logic",
+      "target": "Microcontroller Unit (MCU)"
+    },
+    {
+      "source": "Maintenance Tracking Logic",
+      "target": "Microcontroller Unit (MCU)"
+    },
+    {
+      "source": "Maintenance Tracking Logic",
+      "target": "Firmware Software"
+    },
+    {
+      "source": "Display Status Management",
+      "target": "Buttons / Touch Display"
+    },
+    {
+      "source": "Easy to Use Interface",
+      "target": "User Interface Test"
+    },
+    {
+      "source": "Brew Timing Control",
+      "target": "Brew Time Test"
+    },
+    {
+      "source": "Water Heating Control",
+      "target": "Temperature Accuracy Test"
+    },
+    {
+      "source": "Safety Monitoring Logic",
+      "target": "Overheat Shutdown Test"
+    },
+    {
+      "source": "Maintenance Tracking Logic",
+      "target": "Cleaning Alert Test"
+    },
+    {
+      "source": "User Input Handling",
+      "target": "User Interface Test"
+    },
+    {
+      "source": "Brew Timing Control",
+      "target": "Power Supply Unit"
+    },
+    {
+      "source": "User Input Handling",
+      "target": "Power Supply Unit"
+    },
+    {
+      "source": "Safety Monitoring Logic",
+      "target": "Power Supply Unit"
+    },
+    {
+      "source": "Safety Monitoring Logic",
+      "target": "Water Level Sensor"
+    },
+    {
+      "source": "Dry-Run Protection",
+      "target": "Water Level Sensor"
+    },
+    {
+      "source": "Cup Size Selection",
+      "target": "Cup Size Volume Test"
+    },
+    {
+      "source": "Dry-Run Protection",
+      "target": "Safety Monitoring Logic"
+    },
+    {
+      "source": "Safety Monitoring Logic",
+      "target": "Water Level Sensor"
+    },
+    {
+      "source": "Water Level Sensor",
+      "target": "Dry-Run Protection Test"
+    },
+    {
+      "source": "Fast Beverage Expectation",
+      "target": "Automated Brew Sequence Requirement"
+    },
+    {
+      "source": "Simple Operation Expectation",
+      "target": "User Interaction Requirement"
+    },
+    {
+      "source": "Household Safety Expectation",
+      "target": "Thermal Control Requirement"
+    },
+    {
+      "source": "Consistent Flavor Expectation",
+      "target": "Flow Regulation Requirement"
+    },
+    {
+      "source": "Automated Brew Sequence Requirement",
+      "target": "Central Control Design"
+    },
+    {
+      "source": "Thermal Control Requirement",
+      "target": "Safety Management Design"
+    },
+    {
+      "source": "Flow Regulation Requirement",
+      "target": "Central Control Design"
+    },
+    {
+      "source": "User Interaction Requirement",
+      "target": "Central Control Design"
+    },
+    {
+      "source": "Central Control Design",
+      "target": "Fluid Transport Subsystem"
+    },
+    {
+      "source": "Central Control Design",
+      "target": "Heating Regulation Subsystem"
+    },
+    {
+      "source": "Central Control Design",
+      "target": "Human Interface Subsystem"
+    },
+    {
+      "source": "Safety Management Design",
+      "target": "Heating Regulation Subsystem"
+    },
+    {
+      "source": "Fluid Transport Subsystem",
+      "target": "Pump Actuator Driver"
+    },
+    {
+      "source": "Heating Regulation Subsystem",
+      "target": "Heater Actuator Driver"
+    },
+    {
+      "source": "Human Interface Subsystem",
+      "target": "Input Signal Processor"
+    },
+    {
+      "source": "Pump Actuator Driver",
+      "target": "Embedded Control Software Build"
+    },
+    {
+      "source": "Heater Actuator Driver",
+      "target": "Embedded Control Software Build"
+    },
+    {
+      "source": "Input Signal Processor",
+      "target": "Embedded Control Software Build"
+    },
+    {
+      "source": "Embedded Control Software Build",
+      "target": "Full Hardware Integration"
+    },
+    {
+      "source": "Fast Beverage Expectation",
+      "target": "Customer Acceptance Check"
+    },
+    {
+      "source": "Automated Brew Sequence Requirement",
+      "target": "System Behavior Validation"
+    },
+    {
+      "source": "Fluid Transport Subsystem",
+      "target": "Subsystem Interaction Validation"
+    },
+    {
+      "source": "Pump Actuator Driver",
+      "target": "Component Unit Verification"
+    },
+    {
+      "source": "Heater Actuator Driver",
+      "target": "Component Unit Verification"
+    },
+    {
+      "source": "Input Signal Processor",
+      "target": "Component Unit Verification"
+    },
+    {
+      "source": "BrewTime",
+      "target": "ControlBrewCycle"
+    },
+    {
+      "source": "BrewTemperature",
+      "target": "HeatingSubsystem"
+    },
+    {
+      "source": "UserSafety",
+      "target": "SafetyProtection"
+    },
+    {
+      "source": "EaseOfUse",
+      "target": "UserPanel"
+    },
+    {
+      "source": "HeatWater",
+      "target": "HeatingSubsystem"
+    },
+    {
+      "source": "HeatWater",
+      "target": "HeaterElement"
+    },
+    {
+      "source": "PumpWater",
+      "target": "WaterPump"
+    },
+    {
+      "source": "UserInteraction",
+      "target": "UserInterface"
+    },
+    {
+      "source": "HeatingSubsystem",
+      "target": "TemperatureSensor"
+    },
+    {
+      "source": "PumpingSubsystem",
+      "target": "WaterPump"
+    },
+    {
+      "source": "UserInterface",
+      "target": "UserPanel"
+    },
+    {
+      "source": "SafetyMonitoring",
+      "target": "ControlPCB"
+    },
+    {
+      "source": "ControlBrewCycle",
+      "target": "ControlUnit"
+    },
+    {
+      "source": "ControlUnit",
+      "target": "ControlPCB"
+    },
+    {
+      "source": "Prod CoffeeMachine",
+      "target": " Res Microcontroller"
+    },
+    {
+      "source": "Prod_HeatingUnit",
+      "target": "proc BrewCoffee"
+    },
+    {
+      "source": "Prod PumpingUnit",
+      "target": "Res WaterPump"
+    },
+    {
+      "source": "Prod ControlPCB",
+      "target": "Proc HeatWater"
+    },
+    {
+      "source": "Prod UserInterface",
+      "target": " Res UserPanel"
+    },
+    {
+      "source": "Proc HeatWater",
+      "target": "Res Heater"
+    },
+    {
+      "source": "Proc HeatWater",
+      "target": "Prod_HeatingUnit"
+    },
+    {
+      "source": "Proc PumpWater",
+      "target": "Res TempSensor"
+    },
+    {
+      "source": "Proc LoadCoffee",
+      "target": "Prod UserInterface"
+    },
+    {
+      "source": "proc BrewCoffee",
+      "target": "Res WaterPump"
+    },
+    {
+      "source": "Proc MachineCleaning",
+      "target": " Res Microcontroller"
+    },
+    {
+      "source": "Res TempSensor",
+      "target": "Prod ControlPCB"
+    },
+    {
+      "source": " Res UserPanel",
+      "target": "Prod CoffeeMachine"
+    },
+    {
+      "source": "Res Heater",
+      "target": "Prod_HeatingUnit"
+    },
+    {
+      "source": " Res Microcontroller",
+      "target": "Prod ControlPCB"
+    },
+    {
+      "source": "Quick Coffee Preparation",
+      "target": "Brew Start < 60 Seconds"
+    }
+  ]
+}
